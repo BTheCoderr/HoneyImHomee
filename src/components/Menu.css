@@ -1,0 +1,57 @@
+/* Honey, I'm Home - Menu Section (Warm Cream, artisanal) */
+.menu-section {
+  background: #FDFBF7;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(216, 167, 167, 0.12);
+  border: 1px solid #eddddc;
+}
+
+.menu-header {
+  margin-bottom: 2rem;
+}
+
+.menu-header h2 {
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  color: #333333;
+  font-size: 1.875rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.menu-subtitle {
+  color: #5a5a5a;
+  font-size: 0.95rem;
+}
+
+.meals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.no-meals {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #333333;
+}
+
+.no-meals p {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.hint {
+  font-size: 0.9rem;
+  color: #5a5a5a;
+}
+
+@media (max-width: 768px) {
+  .menu-section {
+    padding: 1.5rem;
+  }
+  
+  .meals-grid {
+    grid-template-columns: 1fr;
+  }
+}
